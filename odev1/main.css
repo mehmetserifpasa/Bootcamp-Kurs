@@ -1,0 +1,133 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: sans-serif;
+}
+
+.main {
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 900px;
+    margin: 30px auto;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.226);
+}
+
+.main-image {
+    width: 110px;
+    height: 140px;
+    margin-top: 100px;
+    margin-left: 190px;
+    box-shadow: -6px 6px rgba(0, 0, 0, 0.253);
+}
+
+.main-h1-title {
+    color: #646464;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    letter-spacing: 2px;
+}
+
+.main-socialMedia {
+    width: 240px;
+    height: 100px;
+    margin: 5px auto;
+    padding-top: 10px;
+    padding-left: 12px;
+    word-spacing: 10px;
+}
+
+.main-socialMedia h6 {
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    border-color: rgba(0, 0, 0, 0.233);
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.main-socialMedia-facebook {
+    color: #556EA7;
+}
+
+.main-socialMedia-google {
+    color: #DE614B;
+}
+
+.main-socialMedia-yandex {
+    color: #5E1CA0;
+}
+
+.use-your-email-adress {
+    text-align: center;
+    line-height: 0;
+    font-size: 18px;
+    color: #BDBBBC;
+    font-weight: 100;
+}
+
+.registration-question {
+    width: 400px;
+    height: 300px;
+    margin: 27px auto;
+}
+
+.registration-question input {
+    display: block;
+    height: 60px;
+    width: 100%;
+    outline: none;
+    background-color: #EFEFEF;
+    border: none;
+    border-radius: 30px;
+    margin-top: 15px;
+    font-family: sans-serif;
+}
+
+.registration-question input::placeholder{
+    padding-left: 30px;
+    color: #C2C2C2;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.registration-question button {
+    background-color: #CF5AF6;
+    color: #EED9FA;
+    width: 100%;
+    height: 60px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 30px;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.registration-question button:hover {
+    color: rgb(43, 43, 43);
+}
+
+.sign_in {
+    padding-top: 60px;
+    color: #A9A7A8;
+    font-size: 18px;
+    text-align: center;
+}
+
+.sign_in a {
+    color: #6E60FD;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+}
