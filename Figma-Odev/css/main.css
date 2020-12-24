@@ -1,0 +1,148 @@
+body {
+  font-family: Roboto;
+}
+
+:root {
+  --nav-color: #1B0A42;
+  --nav-button-color: #824FF1;
+  --nav-button-text-color: white;
+}
+
+.header {
+  width: 100%;
+  margin: auto;
+  position: relative;
+}
+
+.header__logo {
+  position: absolute;
+  left: 80px;
+  top: 37px;
+  width: 95.25px;
+  height: 40.61px;
+}
+
+.header__logo__img {
+  margin-top: 13px;
+}
+
+.header__nav {
+  position: absolute;
+  top: 58px;
+  left: 272px;
+}
+
+.header__nav--font-size {
+  font-size: 16px;
+}
+
+.header__nav--text-alg {
+  text-align: center;
+}
+
+.header__nav--font-weight {
+  font-weight: normal;
+}
+
+.header__nav--text-dec {
+  text-decoration: none;
+}
+
+.header__nav--color {
+  color: var(--nav-color);
+}
+
+.header__nav--letter-sp {
+  letter-spacing: 0.02em;
+}
+
+.header__nav a:nth-of-type(5) {
+  position: absolute;
+  left: 1320px;
+  width: 51px;
+}
+
+.header__nav a:not(.header__nav--pass) {
+  margin-left: 38px;
+}
+
+.button {
+  position: absolute;
+  color: var(--nav-button-text-color);
+  background-color: var(--nav-button-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  left: 1443px;
+  top: -22px;
+  width: 120px;
+  height: 59.65px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.main__h1 {
+  position: absolute;
+  left: 200px;
+  top: 280.71px;
+  width: 550px;
+  height: 152px;
+}
+
+.main__h1--font-size {
+  font-size: 72px;
+}
+
+.main__h1--font-weight {
+  font-weight: normal;
+}
+
+.main__h1--font-color {
+  color: black;
+}
+
+.main__desc {
+  position: absolute;
+  width: 590.46px;
+  height: 96px;
+  left: 200px;
+  top: 482.71px;
+  color: #9A9A9A;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  line-height: 32px;
+}
+
+.main__desc--font-size {
+  font-size: 20px;
+}
+
+.main__desc--font-weight {
+  font-weight: normal;
+}
+
+.main .button {
+  left: 200px;
+  top: 648px;
+  width: 152px;
+  height: 63.65px;
+}
+
+.main__background-image {
+  position: absolute;
+  left: 1156px;
+  top: 140px;
+}
+
+.main__image {
+  position: absolute;
+  left: 1103px;
+  top: 225px;
+}
+/*# sourceMappingURL=main.css.map */

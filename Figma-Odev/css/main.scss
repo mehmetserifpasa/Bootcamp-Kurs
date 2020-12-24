@@ -1,0 +1,149 @@
+body {
+    font-family: Roboto;
+}
+
+:root {
+    --nav-color: #1B0A42; 
+    --nav-button-color: #824FF1;
+    --nav-button-text-color: white;
+}
+
+.header {
+    width: 100%;
+    margin: auto;
+    position: relative;
+
+    &__logo {
+        position: absolute;
+        left: 80px;
+        top: 37px;
+        width: 95.25px;
+        height: 40.61px;
+    }
+
+    &__logo__img {
+        margin-top: 13px;
+    }
+
+    &__nav {
+        position: absolute;
+        top: 58px;
+        left: 272px;
+
+        &--font-size {
+            font-size: 16px;
+        }
+
+        &--text-alg {
+            text-align: center;
+        }
+
+        &--font-weight {
+            font-weight: normal;
+        }
+
+        &--text-dec {
+            text-decoration: none;
+        }
+
+        &--color {
+            color: var(--nav-color);
+        }
+
+        &--letter-sp {
+            letter-spacing: 0.02em;
+        }
+
+        a:nth-of-type(5) {
+            position: absolute;
+            left: 1320px;
+            width: 51px;
+        }
+
+        a:not(.header__nav--pass) {
+            margin-left: 38px;
+        }
+
+    }
+
+}
+
+.button{
+    position: absolute;
+    color: var(--nav-button-text-color);
+    background-color: var(--nav-button-color);
+    display: flex;
+    left: 1443px;
+    top: -22px;
+    width: 120px;
+    height: 59.65px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+
+.main {
+    
+    &__h1 {
+        position: absolute;
+        left: 200px;
+        top: 280.71px;
+        width: 550px;
+        height: 152px;
+
+        &--font-size {
+            font-size: 72px;
+        }
+
+        &--font-weight {
+            font-weight: normal;
+        }
+
+        &--font-color {
+            color: black;
+        }
+    }
+
+    &__desc {
+        position: absolute;
+        width: 590.46px;
+        height: 96px;
+        left: 200px;
+        top: 482.71px;
+        color: #9A9A9A;
+        letter-spacing: 0.02em;
+        font-style: normal;
+        line-height: 32px;
+
+
+        &--font-size {
+            font-size: 20px;
+        }
+
+        &--font-weight {
+            font-weight: normal;
+        }
+
+    }
+
+    .button {
+        left: 200px;
+        top: 648px;
+        width: 152px;
+        height: 63.65px;
+    }
+
+    &__background-image {
+        position: absolute;
+        left: 1156px;
+        top: 140px;
+    }
+
+    &__image {
+        position: absolute;
+        left: 1103px;
+        top: 225px;
+    }
+}
